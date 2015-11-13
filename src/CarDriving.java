@@ -52,7 +52,7 @@ public class CarDriving extends PApplet {
         boundariesManager = new BoundariesManager(box2d);
         boundariesManager.addMappedBoundaries(boundariesMap, color(30, 200, 20), color(0));
 
-        particleManager = new ParticlesManager(200, box2d);
+        particleManager = new ParticlesManager(250, box2d);
         particleManager.addParticleBase( 10, 10, 4);
         particleManager.addParticleBase(590, 10, 3);
         particleManager.addParticleBase(590,170, 2);
