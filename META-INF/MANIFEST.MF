@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: libraries/core.jar libraries/box2d_processing.jar librarie
+ s/jbox2d-library-2.2.1-ds.jar
+Main-Class: CarDriving
+
